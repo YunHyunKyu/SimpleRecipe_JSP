@@ -1,6 +1,6 @@
 # SimpleRecipe
 
-https://github.com/YunHyunKyu/SimpleRecipe_JSP/issues/1#issue-1095071778
+![s1](https://user-images.githubusercontent.com/33935620/148350647-ba94ef92-ad8e-4d16-bb87-f367b9a363e9.PNG)
 
 ## JSP 프로젝트
 - Tomcat9.0 사용
