@@ -1,0 +1,292 @@
+body {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: "Nanum Gothic", sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .btn {
+    width: 130px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    transition: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* 해더 시작 */
+  header {
+    width: 100%;
+    border-bottom: 1px solid #c8c8c8;
+    position: relative;
+    top: 0px;
+    z-index: 10;
+  }
+  
+  header .topHeader {
+    background-color: #f3f3f3;
+  }
+  
+  /* 위쪽 해더 시작 */
+  .topHeader .inner {
+    height: 150px;
+  }
+  
+  .topHeader .logo {
+    height: 130px;
+    position: absolute;
+    top: 0;
+    bottom : 0;
+    margin : auto 0;
+    display: flex;
+  }
+  
+  .topHeader .logo img {
+    width: 120px;
+  }
+  
+  .topHeader .logo h1 {
+    font-size: 40px;
+    font-family: 'Kalam', cursive;
+    color: #333;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .topHeader .logo h1 span {
+    font-size: 60px;
+  }
+  
+  .topHeader .sub-menu {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    top: 15px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .topHeader .sub-menu li {
+    position: relative;
+  }
+  
+  .topHeader .sub-menu li::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: black;
+  }
+  
+  .topHeader .sub-menu li:first-child::before {
+    display: none;
+  }
+  
+  .topHeader .sub-menu li a {
+    padding: 14px 14px;
+    color: #333;
+  }
+  
+  .topHeader .search {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    bottom: 30px;
+    right: 0px;
+    margin: auto;
+  }
+  
+  .topHeader .search input {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #669900;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+    color: #777;
+    font-size: 18px;
+    transition: width 0.4s;
+  }
+  
+  .topHeader .search input:focus {
+    border: 2px solid #333;
+  }
+  
+  .topHeader .search .material-icons {
+    height: 24px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 8px;
+    margin: auto;
+    font-size: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  /* 위쪽 해더 끝 */
+  
+  /* 아래쪽 해더 시작 */
+  .downHeader {
+    background-color: #fff;
+  }
+  
+  .downHeader .inner {
+    height: 120px;
+  }
+  
+  .downHeader .main-menu {
+    position: absolute;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .downHeader .main-menu .item {
+    position: relative;
+    font-family: 'East Sea Dokdo', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 50px 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+    /* border: 1px solid red; */
+    display: flex;
+  }
+  
+  .downHeader .main-menu .item::before {
+    content: "";
+    background-color: #333;
+    width: 2px;
+    height: 24px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .downHeader .main-menu .item:first-child::before {
+    display: none;
+  }
+  
+  .downHeader .main-menu .item ul {
+    position: absolute;
+    display: block;
+    width: 250px;
+    height: 0px;
+    background-color: #fff;
+    /* border: 2px solid #777; */
+    top: 130px;
+    left: 0px;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+    overflow: hidden;
+    transition: height 0.6s;
+  }
+  
+  .downHeader .main-menu .item:hover > p {
+    color: #ff6666;
+  }
+  
+  .downHeader .main-menu .item:hover ul {
+    height: 330px;
+  }
+  
+  .downHeader .main-menu .item ul li:hover {
+    color: #ff0000;
+  }
+  
+  .downHeader .main-menu .item ul li {
+    margin: 20px 10px;
+  }
+  /* 다운 해더 끝 */
+  /* 해더 끝 */
+
+  /* footer */
+
+footer {
+    background-color: #222;
+    border-top: 1px solid #333;
+    margin-top: 50px;
+    height: 250px;
+  }
+  
+  footer .inner {
+    padding: 40px 0 60px 0;
+  }
+  
+  footer .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer .menu li {
+    position: relative;
+  }
+  
+  footer .menu li::before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    background-color: #555;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    margin: auto;
+  }
+  
+  footer .menu li a {
+    color: #ccc;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px;
+    display: block;
+  }
+  
+  footer .footer__info {
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* footer 끝 */
