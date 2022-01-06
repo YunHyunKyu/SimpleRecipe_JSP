@@ -13,11 +13,23 @@
 - 회원가입, 로그인
 - 그외 => SwiperJS 사용, iframe Youtube 사용, Jquery 사용
 
-## SignIn
+# JSP
+- MemberMgr에서 DB 연결 및 조회, 수정, 삭제 작업 수행
+- SignIn의 경우 Session을 사용하여 id를 기억
+
+## MemberMgr
+https://github.com/YunHyunKyu/SimpleRecipe_JSP/blob/master/src/main/java/bean/MemberMgr.java
+
+## MemberDTO
+- 멤버에 대한 정보
+https://github.com/YunHyunKyu/SimpleRecipe_JSP/blob/master/src/main/java/bean/MemberDTO.java
+
+## SignIn - 로그인
 https://github.com/YunHyunKyu/SimpleRecipe_JSP/blob/master/src/main/webapp/signinProc.jsp
 
-## SignUp
+![s2](https://user-images.githubusercontent.com/33935620/148353420-dd482832-3b04-47b0-b6e1-9b48fd279d8b.PNG)
+
+## SignUp - 회원가입
 https://github.com/YunHyunKyu/SimpleRecipe_JSP/blob/master/src/main/webapp/signupProc.jsp
 
-
-
+![s3](https://user-images.githubusercontent.com/33935620/148353424-3307e01f-3ced-4140-8393-851708e09d1f.PNG)
